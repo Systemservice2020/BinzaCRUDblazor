@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kf5PEHUp3k2FuJOmWrVuM3qrZpXvFaozG3igSQZ7JlF2v6zmTA+Lo6vH2yHOgl3lDNUUNf/MmMI4g6gXHOzsBg==",
+  "dgSpecHash": "A0WatnYp6fZwkWwZXZg/W9pf9VKks0TtIntsgBNjbHFhTHE9pS/XtH78HQaIxNmBKdHF+8DBEHuav9xSTm6pfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nestacio\\Documents\\Repos\\Clientes\\Clientes.csproj",
+  "projectFilePath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Clientes\\Clientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nestacio\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\nestacio\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

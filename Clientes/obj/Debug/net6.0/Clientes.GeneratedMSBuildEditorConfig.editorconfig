@@ -8,73 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Clientes
 build_property.RootNamespace = Clientes
-build_property.ProjectDir = C:\Users\nestacio\Documents\Repos\Clientes\
+build_property.ProjectDir = C:\Users\nestacio\Documents\Repos\CRUDblazor\Clientes\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nestacio\Documents\Repos\Clientes
+build_property.MSBuildProjectDirectory = C:\Users\nestacio\Documents\Repos\CRUDblazor\Clientes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/App.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/ConatactosCliente.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/ConatactosCliente.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uYXRhY3Rvc0NsaWVudGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/Counter.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/FetchData.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/Index.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/AlertCC.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/AlertCC.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFsZXJ0Q0MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/Cliente/ClienteMant.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/Cliente/ClienteMant.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENsaWVudGVcQ2xpZW50ZU1hbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/Cliente/ContactoClienMant.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/Cliente/ContactoClienMant.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENsaWVudGVcQ29udGFjdG9DbGllbk1hbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/CriticalAlert.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/CriticalAlert.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENyaXRpY2FsQWxlcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/SurveyPrompt.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/_Imports.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/MainLayout.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-a5x2v28isq
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Shared/NavMenu.razor]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xi5ps8z4qj
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/Error.cshtml]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/_Host.cshtml]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nestacio/Documents/Repos/Clientes/Pages/_Layout.cshtml]
+[C:/Users/nestacio/Documents/Repos/CRUDblazor/Clientes/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

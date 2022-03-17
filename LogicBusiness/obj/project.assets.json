@@ -495,11 +495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nestacio\\Documents\\Repos\\LogicBusiness\\LogicBusiness.csproj",
+      "projectUniqueName": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\LogicBusiness\\LogicBusiness.csproj",
       "projectName": "LogicBusiness",
-      "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\LogicBusiness\\LogicBusiness.csproj",
+      "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\LogicBusiness\\LogicBusiness.csproj",
       "packagesPath": "C:\\Users\\nestacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nestacio\\Documents\\Repos\\LogicBusiness\\obj\\",
+      "outputPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\LogicBusiness\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -520,11 +520,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nestacio\\Documents\\Repos\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj": {
-              "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj"
+            "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj": {
+              "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj"
             }
           }
         }

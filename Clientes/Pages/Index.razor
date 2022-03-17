@@ -19,7 +19,8 @@
 </div>
 <br />
 <br />
-<table class="table table-bordered table-hover table-responsive-sm">
+<div class="container-fluid" style="overflow-x:auto;">
+    <table class="table table-bordered table-hover table-responsive-sm">
   <thead class="thead-dark">
     <tr>
             @foreach (DataColumn col in dt.Columns)
@@ -47,6 +48,7 @@
       }
   </tbody>
     </table>
+</div>
 }
 else
 {

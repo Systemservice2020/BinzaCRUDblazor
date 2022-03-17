@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj": {}
+    "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj": {
+    "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj",
+        "projectUniqueName": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj",
         "projectName": "Entity Business",
-        "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj",
+        "projectPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj",
         "packagesPath": "C:\\Users\\nestacio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\obj\\",
+        "outputPath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

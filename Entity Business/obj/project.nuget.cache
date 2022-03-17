@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1X4EpxSCmqQz/AJtXi2Ww47jvAzp5I66qgv4+acjZkOkqiDRkFrWRMKHALfqGkOwe+Kl64P+ifvGjvSpzZ2TbA==",
+  "dgSpecHash": "V3QFjmfaA5TM4NJbbP/rZUnv3ahuqdeZJ54ighbTzLbOZ7W0gb9yOoWEU/Z3OHjpEeB1DTr5SxbcFefyXe5GCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nestacio\\Documents\\Repos\\Entity Business\\Entity Business.csproj",
+  "projectFilePath": "C:\\Users\\nestacio\\Documents\\Repos\\CRUDblazor\\Entity Business\\Entity Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
