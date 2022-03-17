@@ -1,0 +1,111 @@
+﻿@using Entity_Business
+@using LogicBusiness
+@using System.Data
+@inject NavigationManager navig
+
+<div class="card">
+    <div class="card-header">
+        @action
+    </div>
+    <div class="card-body">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="inputState">Cliente</label>
+            <select id="inputState" @bind="cbocliente" class="form-control">   
+            @foreach (DataRow row in cl.Rows)
+            {
+                <option value="@row["Id"]">@row["Nombre"]</option>
+            }
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputNomc">Nombre</label>
+            <input type="text" class="form-control" id="inputNomc" placeholder="Nombre" @bind-value="cc.Nombre">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputtell">Teléfono</label>
+          <input type="text" class="form-control" id="inputtell" placeholder="Teléfono" @bind-value="cc.Telefono">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputemail">Email</label>
+            <input type="email" class="form-control" id="inputemail" placeholder="Email" @bind-value="cc.Email">
+        </div>
+      </div>
+      <br />
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="submit" class="btn btn-success" @onclick="guardarNuevo">Grabar</button>
+            <button type="button" class="btn btn-secondary" @onclick="cancelarReg">Cancelar</button>
+        </div>
+    </form>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public ContactosClienteEB? cc { get; set; }
+    [Parameter]
+    public DataTable? cl { get; set; }
+    [Parameter]
+    public string? action { get; set; }
+    [Parameter]
+    public string? conex { get; set; }
+    private bool aler;
+    private int cbocliente;
+    ContactosClienteLB clb = new ContactosClienteLB();
+    protected override void OnInitialized()
+    {
+        if (action=="Editar")
+        {
+            cbocliente = cc.ClienId;
+        }
+    }
+    private void guardarNuevo()
+    {
+        if (action == "Nuevo")
+        {
+            if (cc != null && conex != null)
+            {
+                if (cc.Nombre != null)
+                {
+                    cc.ClienId = cbocliente;
+                    aler = clb.nuevoContacto(cc,conex);
+                    if (aler)
+                    {
+                        cc.Id = 0;
+                        cc.ClienId = 0;
+                        cc.Nombre = null;
+                        cc.Telefono = null;
+                        cc.Email = null;
+                    }
+                }
+            }
+        }
+        else if(action == "Editar")
+        {
+            if (cc != null && conex != null)
+            {
+                if (cc.Nombre != null)
+                {
+                    aler = clb.editarContacto(cc,conex);
+                    if (!aler)
+                    {
+                        cancelarReg();
+                    }
+                }
+            }
+        }
+
+    }
+    private void cancelarReg()
+    {
+        bool refres = true;
+        if (refres)
+        {
+            var timer = new Timer(new TimerCallback(_ =>
+            {
+                navig.NavigateTo(navig.Uri, forceLoad: true);
+            }), null, 100, 100);
+        }
+        refres = false;
+    }
+}

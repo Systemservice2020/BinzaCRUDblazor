@@ -1,0 +1,12 @@
+C:\Users\nestacio\source\repos\Clientes\Entity Business\bin\Debug\net6.0\Entity Business.deps.json
+C:\Users\nestacio\source\repos\Clientes\Entity Business\bin\Debug\net6.0\Entity Business.dll
+C:\Users\nestacio\source\repos\Clientes\Entity Business\bin\Debug\net6.0\Entity Business.pdb
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.csproj.AssemblyReference.cache
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.AssemblyInfoInputs.cache
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.AssemblyInfo.cs
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.csproj.CoreCompileInputs.cache
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.dll
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\refint\Entity Business.dll
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\Entity Business.pdb
+C:\Users\nestacio\source\repos\Clientes\Entity Business\obj\Debug\net6.0\ref\Entity Business.dll

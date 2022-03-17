@@ -1,0 +1,17 @@
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\LogicBusiness.deps.json
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\LogicBusiness.dll
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\LogicBusiness.pdb
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\DataAccess.dll
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\Entity Business.dll
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\DataAccess.pdb
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\bin\Release\net6.0\Entity Business.pdb
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.csproj.AssemblyReference.cache
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.AssemblyInfoInputs.cache
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.AssemblyInfo.cs
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.csproj.CoreCompileInputs.cache
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.csproj.CopyComplete
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.dll
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\refint\LogicBusiness.dll
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\LogicBusiness.pdb
+C:\Users\nestacio\source\repos\Clientes\LogicBusiness\obj\Release\net6.0\ref\LogicBusiness.dll

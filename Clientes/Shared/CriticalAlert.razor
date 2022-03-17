@@ -1,0 +1,50 @@
+﻿@using Entity_Business
+@using LogicBusiness
+@inject NavigationManager navig
+
+<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+  <div class="card-header">@action</div>
+  <div class="card-body">
+    <h5 class="card-title">Esta seguro de eliminar a @cli.Nombre ?</h5>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success" @onclick="guardar">Si</button>
+        <button type="button" class="btn btn-secondary" @onclick="cancelar">No</button>
+    </div>  </div>
+</div>
+
+@code {
+    [Parameter]
+    public ClienteEB? cli { get; set; }
+    [Parameter]
+    public string? action { get; set; }
+    [Parameter]
+    public string? conex { get; set; }
+    private bool aler;
+    ClienteLB clb = new ClienteLB();
+    private void guardar()
+    {
+        if (cli != null && conex != null)
+        {
+            if (cli.Id != null)
+            {
+                aler = clb.eliminarCliente(cli,conex);
+                if (aler)
+                {
+                    cancelar();
+                }
+            }
+        }
+    }
+    private void cancelar()
+    {
+        bool refres = true;
+        if (refres)
+        {
+            var timer = new Timer(new TimerCallback(_ =>
+            {
+                navig.NavigateTo(navig.Uri, forceLoad: true);
+            }), null, 100, 100);
+        }
+        refres = false;
+    }
+}

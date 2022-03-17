@@ -1,0 +1,109 @@
+﻿@using Entity_Business
+@using LogicBusiness
+@inject NavigationManager navig
+<div class="card">
+  <div class="card-header">
+    @action
+  </div>
+  <div class="card-body">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNomb">Nombre</label>
+      <input type="text" class="form-control" id="inputNomb" placeholder="Nombre" @bind-value="cli.Nombre" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputDomin">Domicilio</label>
+      <input type="text" class="form-control" id="inputDomin" placeholder="Domicilio" @bind-value="cli.Domicilio">
+    </div>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="inputcodpos">Código Postal</label>
+    <input type="text" class="form-control" id="inputcodpos" placeholder="Código Postal" @bind-value="cli.CodigoPostal">
+  </div>
+  <div class="form-group col-md-6">
+    <label for="inputPoblac">Población</label>
+    <input type="text" class="form-control" id="inputPoblac" placeholder="Población" @bind-value="cli.Poblacion">
+  </div>
+  <br />
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success" @onclick="guardarNuevo">Grabar</button>
+        <button type="button" class="btn btn-secondary" @onclick="cancelarReg">Cancelar</button>
+    </div>
+</form>
+@if (aler)
+{
+<div class="alert alert-success" role="alert">
+  Se guardo correctamente :)
+</div>         
+}
+  </div>
+</div>
+
+@code {
+    [Parameter]
+    public ClienteEB? cli { get; set; }
+    [Parameter]
+    public string? action { get; set; }
+    [Parameter]
+    public string? conex { get; set; }
+    private bool aler;
+    ClienteLB clb = new ClienteLB();
+    private void guardarNuevo()
+    {
+        if (action == "Nuevo")
+        {
+            if (cli != null && conex != null)
+            {
+                if (cli.Nombre != null)
+                {
+                    aler = clb.nuevoCliente(cli,conex);
+                    if (!aler)
+                    {
+                        cli.Nombre = null;
+                        cli.Domicilio = null;
+                        cli.CodigoPostal = null;
+                        cli.Poblacion = null;
+                    }
+                }
+            }
+        }
+        else if(action == "Editar")
+        {
+            if (cli != null && conex != null)
+            {
+                if (cli.Nombre != null)
+                {
+                    aler = clb.editarCliente(cli,conex);
+                    if (!aler)
+                    {
+                        cancelarReg();
+                    }
+                }
+            }
+        }
+
+    }
+    private void cancelarReg()
+    {
+        bool refres = true;
+        if (refres)
+        {
+            var timer = new Timer(new TimerCallback(_ =>
+            {
+                navig.NavigateTo(navig.Uri, forceLoad: true);
+            }), null, 100, 100);
+        }
+        refres = false;
+    }
+    //protected override void OnAfterRender(bool firstRender)
+    //{
+    //    if (firstRender)
+    //    {
+    //        var timer = new Timer(new TimerCallback(_ =>
+    //        {
+    //            navig.NavigateTo(navig.Uri, forceLoad: true);
+    //        }), null, 2000, 2000);
+    //    }
+    //}
+}

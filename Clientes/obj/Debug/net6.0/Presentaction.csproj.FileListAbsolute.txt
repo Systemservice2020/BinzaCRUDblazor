@@ -1,0 +1,8 @@
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.csproj.AssemblyReference.cache
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.AssemblyInfoInputs.cache
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.AssemblyInfo.cs
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.csproj.CoreCompileInputs.cache
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.RazorAssemblyInfo.cache
+C:\Users\nestacio\source\repos\Clientes\Clientes\obj\Debug\net6.0\Presentaction.RazorAssemblyInfo.cs

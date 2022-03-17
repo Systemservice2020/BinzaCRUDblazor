@@ -1,0 +1,97 @@
+﻿@page "/"
+@using Entity_Business
+@using System.Data
+@using Microsoft.Extensions.Configuration
+@using Clientes.Shared.Cliente
+@inject LogicBusiness.ClienteLB cLB
+@inject IConfiguration Configuration
+@inject NavigationManager navig
+
+<PageTitle>Cliente</PageTitle>
+
+<h1>Cliente</h1>
+
+@if (!nueCli)
+{
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary" @onclick="nuevoCli">Nuevo</button>
+    <button type="button" class="btn btn-secondary" @onclick="verContacto">Ver Contacto</button>
+</div>
+<br />
+<br />
+<table class="table table-bordered table-hover table-responsive-sm">
+  <thead class="thead-dark">
+    <tr>
+            @foreach (DataColumn col in dt.Columns)
+            {
+                <th scope="col">@col.Caption</th>
+            }
+            <th scope="col">Acción</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (DataRow fila in dt.Rows)
+      {
+        <tr>
+          @for (int i = 0; i < dt.Columns.Count; i++)
+          {
+              <td>@fila[i].ToString()</td>
+          }
+          <td>
+              <div class="btn-group-sm" role="group" aria-label="Basic example">
+                 <button type="button" class="btn btn-success" @onclick="@(e => editarCli(fila))">Editar</button>
+                 <button type="button" class="btn btn-danger" @onclick="@(e => eliminarCli(fila))">ELiminar</button>
+              </div>
+          </td>
+        </tr>
+      }
+  </tbody>
+    </table>
+}
+else
+{
+    if (mantTitle == "Eliminar")
+    {
+        <CriticalAlert action="@mantTitle" cli="cEB" conex="@Configuration["ConnectionStrings:conex"]"/>
+    }
+    else
+    {
+        <ClienteMant action="@mantTitle" cli="cEB" conex="@Configuration["ConnectionStrings:conex"]"/>
+    }
+}
+@code{
+    DataTable dt = new DataTable();
+    ClienteEB cEB = new ClienteEB();
+    private bool nueCli;
+    private string mantTitle;
+    protected override void OnInitialized()
+    {
+        dt = cLB.leerCliente(cEB,Configuration["ConnectionStrings:conex"]);
+    }
+    private void nuevoCli()
+    {
+        nueCli = !nueCli;
+        mantTitle = "Nuevo";
+    }
+    private void editarCli(DataRow drw)
+    {
+        cEB.Id = (int)drw["Id"];
+        cEB.Nombre = drw["Nombre"].ToString();
+        cEB.Domicilio = drw["Domicilio"].ToString();
+        cEB.CodigoPostal = drw["CodigoPostal"].ToString();
+        cEB.Poblacion = drw["Poblacion"].ToString();
+        nueCli = !nueCli;
+        mantTitle = "Editar";
+    }
+    private void eliminarCli(DataRow drw)
+    {
+        cEB.Id = (int)drw["Id"];
+        cEB.Nombre = drw["Nombre"].ToString();
+        nueCli = !nueCli;
+        mantTitle = "Eliminar";
+    }
+    private void verContacto()
+    {
+        navig.NavigateTo("/contactoCliente");
+    }
+}
